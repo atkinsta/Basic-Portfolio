@@ -153,6 +153,11 @@ button:hover {
     background-color: #FF533D;
 }
 
+button:focus {
+    outline: none;
+    box-shadow: 0 0 2px 2px #FF533D;
+}
+
 p {
     float: left;
     font-size: 20px;
