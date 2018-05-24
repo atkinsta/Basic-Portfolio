@@ -12,17 +12,21 @@ h1 {
 }
 
 ul {
-    float: right;
+    /* float: right; */
 }
 
 nav {
-    background-color: red;
-    float: right;
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 30px;
 }
 
-div {
+#header-wrapper {
     width: 1024px;
     margin: 0 auto;
     background-color: gray;
     overflow: auto;
+    position: relative;
 }
