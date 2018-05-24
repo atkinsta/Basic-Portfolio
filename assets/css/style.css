@@ -3,7 +3,7 @@ body {
     background-repeat: repeat;
     position: relative;
     height: 100%;
-    padding-bottom: 70px;
+    padding-bottom: 10%;
 }
 
 .clearfix::after {
@@ -63,10 +63,10 @@ body {
     margin-right: 30px;
     margin-bottom: 30px;
 }
+
 .port-image {
     margin: 0;
     padding: 0;
-
 }
 
 .port-entity span {
@@ -120,29 +120,22 @@ form {
     padding-top: 0;
 }
 
-/* input {
-    width: 100%;
-    height: 25px;
-} */
-
 input {
     width: 100%;
     height: 25px;
-    border: none;        
+    border: none;
     padding: 4px 8px;
     border-radius: 8px;
 }
 
-input:hover{
+input:hover {
     box-shadow: 0 0 2px 2px #0F1626;
 }
 
-input:focus{
-    outline: none;      
+input:focus {
+    outline: none;
     box-shadow: 0 0 2px 2px #FF533D;
 }
-
-
 
 button {
     margin: 0px 30px 30px 30px;
@@ -203,5 +196,5 @@ footer {
     color: #0F1626;
     text-align: center;
     padding-top: 30px;
-    position: relative;
+    /* position: relative; */
 }
