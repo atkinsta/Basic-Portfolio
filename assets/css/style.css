@@ -1,0 +1,28 @@
+li {
+    float: left;
+    padding: 10px 20px 20px 20px;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 30px 30px 30px 30px;
+    background-color: teal;
+    float: left;
+    margin-left: 40px;
+}
+
+ul {
+    float: right;
+}
+
+nav {
+    background-color: red;
+    float: right;
+}
+
+div {
+    width: 1024px;
+    margin: 0 auto;
+    background-color: gray;
+    overflow: auto;
+}
