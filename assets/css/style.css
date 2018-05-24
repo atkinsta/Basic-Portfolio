@@ -1,6 +1,9 @@
-body{
-    background-image: url("../images/funky-lines.png");
+body {
+    background-image: url("../images/seigaiha.png");
     background-repeat: repeat;
+    position: relative;
+    height: 100%;
+    padding-bottom: 70px;
 }
 
 .clearfix::after {
@@ -12,12 +15,13 @@ body{
 #container {
     width: 1024px;
     margin: 40px auto 40px auto;
-    background-color: slateblue;
-
+    background-color: #F5F5F5;
+    border: 3px solid #AB987A;
+    border-radius: 20px;
 }
 
 #header-wrapper {
-    background-color: gray;
+    background-color: #F5F5F5;
     overflow: auto;
 }
 
@@ -29,13 +33,14 @@ body{
 }
 
 #name {
-    background-color: teal;
-    font-size: 40px;
-    padding: 30px;
+    background-color: #0F1626;
     float: left;
+    border: 2px solid #F5F5F5;
+    border-radius: 10px;
+    color: #F5F5F5;
 }
 
-#link-box{
+#link-box {
     margin: auto 0;
 }
 
@@ -54,36 +59,61 @@ li {
     margin: 22px 0;
     font-size: 24px;
     font-weight: bold;
+    color: #0F1626;
 }
 
 h1 {
     font-size: 40px;
     padding: 30px;
-    
+    color: #0F1626;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
 }
 
 p {
     float: left;
     font-size: 20px;
     line-height: 30px;
+    color: #0F1626;
+    font-family: 'Roboto Slab', serif;
+    padding: 30px;
 }
 
 img {
     float: left;
-    padding: 0px 30px;
+    padding: 0 30px 30px 30px;
+}
+
+a {
+    color: #FF533D;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+
+#right {
+    float: right;
 }
 
 #footer-wrapper {
-    background-color: green;
-    /* position: fixed; */
+    background-color: #AB987A;
+    position: absolute;
     bottom: 0;
     width: 100%;
     margin-top: 30px;
+    border-top: 5px solid #0F1626;
 }
 
 footer {
-    height: 60px;
-    background-color: orange;
+    height: 40px;
+    background-color: #AB987A;
     width: 1024px;
     margin: 0 auto;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #0F1626;
+    text-align: center;
+    padding-top: 30px;
+    position: relative;
 }
