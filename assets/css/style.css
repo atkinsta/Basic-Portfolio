@@ -1,3 +1,5 @@
+/* I fully realize that my sorting of these selectors is bad, will work on it.  */
+
 body {
     background-image: url("../images/seigaiha.png");
     background-repeat: repeat;
@@ -196,5 +198,5 @@ footer {
     color: #0F1626;
     text-align: center;
     padding-top: 30px;
-    /* position: relative; */
+    /* position: relative; I don't think this is nessesary  */
 }
