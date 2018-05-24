@@ -1,32 +1,89 @@
+body{
+    background-image: url("../images/funky-lines.png");
+    background-repeat: repeat;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#container {
+    width: 1024px;
+    margin: 40px auto 40px auto;
+    background-color: slateblue;
+
+}
+
+#header-wrapper {
+    background-color: gray;
+    overflow: auto;
+}
+
+#menu {
+    background-color: gray;
+    margin: 0 auto;
+    width: 1024px;
+    position: relative;
+}
+
+#name {
+    background-color: teal;
+    font-size: 40px;
+    padding: 30px;
+    float: left;
+}
+
+#link-box{
+    margin: auto 0;
+}
+
+#nav-links {
+    float: right;
+    margin: auto 0 auto 0;
+}
+
+ul {
+    margin: auto 0;
+}
+
 li {
     float: left;
     padding: 10px 20px 20px 20px;
+    margin: 22px 0;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 h1 {
     font-size: 40px;
-    padding: 30px 30px 30px 30px;
-    background-color: teal;
+    padding: 30px;
+    
+}
+
+p {
     float: left;
-    margin-left: 40px;
+    font-size: 20px;
+    line-height: 30px;
 }
 
-ul {
-    /* float: right; */
+img {
+    float: left;
+    padding: 0px 30px;
 }
 
-nav {
-    background-color: gray;
-    position: absolute;
+#footer-wrapper {
+    background-color: green;
+    /* position: fixed; */
     bottom: 0;
-    right: 0;
-    margin-right: 30px;
+    width: 100%;
+    margin-top: 30px;
 }
 
-#header-wrapper {
+footer {
+    height: 60px;
+    background-color: orange;
     width: 1024px;
     margin: 0 auto;
-    background-color: gray;
-    overflow: auto;
-    position: relative;
 }
